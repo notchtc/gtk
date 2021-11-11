@@ -19,9 +19,9 @@ treeview {
   }
 
   &:selected {
-    background: colors.$accent-7;
+    background: colors.$primary-accent;
     // TODO: introduce contrast foreground color (light)
-    color: lighten(colors.$accent-7, 50%);
+    color: lighten(colors.$primary-accent, 50%);
   }
 
   &.separator {

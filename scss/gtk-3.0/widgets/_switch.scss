@@ -33,7 +33,7 @@ switch {
     }
 
     &:checked slider {
-      box-shadow: 0 0 0 8px transparentize(colors.$accent-7, 0.9);
+      box-shadow: 0 0 0 8px transparentize(colors.$primary-accent, 0.9);
     }
   }
 }
