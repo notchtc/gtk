@@ -11,7 +11,7 @@ button {
   &:checked, &.suggested-action {
     background: colors.$primary-accent;
     color: lighten(colors.$primary-accent, 40%);
-    &:hover:not(:active) { background: darken(colors.$accent-7, 5%); }
+    &:hover:not(:active) { background: darken(colors.$primary-accent, 5%); }
   }
 
   &.destructive-action {
