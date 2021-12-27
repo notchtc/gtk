@@ -25,9 +25,9 @@ headerbar {
     }
 
     $titlebutton_to_color: (
-      minimize: colors.$accent-3,
-      maximize: colors.$accent-4,
-      close: colors.$accent-1
+      minimize: colors.$surface-1,
+      maximize: colors.$surface-1,
+      close: colors.$surface-1
     );
 
     @each $type, $color in $titlebutton_to_color {
